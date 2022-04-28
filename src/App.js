@@ -3,7 +3,8 @@
 // import Hide from "./Hide&Show/Hide";
 // import ClassProp from "./PropWithClass/PropClass";
 // import HighOrderComp from "./HOC/Hoc";
-import AllRouting from "./Routing6.0/AllRoutings";
+// import AllRouting from "./Routing6.0/AllRoutings";
+import SenderData from "./SendingfunProp/SenderData";
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,8 @@ function App() {
       {/* <Hide /> */}
       {/* <ClassProp Student="Khan" email="majdkhan0786@mail.com" Address="Delhi" Degree="MCA"/> */}
       {/* <HighOrderComp /> */}
-      <AllRouting />
+      {/* <AllRouting /> */}
+      <SenderData />
     </div>
   );
 }
